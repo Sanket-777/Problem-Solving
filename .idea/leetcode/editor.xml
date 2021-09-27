@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="LeetcodeEditor">
+    <option name="projectConfig">
+      <map>
+        <entry key="/tmp/leetcode/editor/en/[1512]Number of Good Pairs.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/tmp/leetcode/editor/en/doc/content/[1512]Number of Good Pairs.md" />
+              <option name="path" value="/tmp/leetcode/editor/en/[1512]Number of Good Pairs.java" />
+              <option name="questionId" value="1635" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/tmp/leetcode/editor/en/[2]Add Two Numbers.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/tmp/leetcode/editor/en/doc/content/[2]Add Two Numbers.md" />
+              <option name="path" value="/tmp/leetcode/editor/en/[2]Add Two Numbers.java" />
+              <option name="questionId" value="2" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+        <entry key="/tmp/leetcode/editor/en/[9]Palindrome Number.java">
+          <value>
+            <LeetcodeEditor>
+              <option name="contentPath" value="/tmp/leetcode/editor/en/doc/content/[9]Palindrome Number.md" />
+              <option name="path" value="/tmp/leetcode/editor/en/[9]Palindrome Number.java" />
+              <option name="questionId" value="9" />
+            </LeetcodeEditor>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
