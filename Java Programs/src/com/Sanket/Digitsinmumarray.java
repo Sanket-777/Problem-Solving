@@ -1,3 +1,5 @@
+package com.Sanket;
+
 //Leetcode problwm number
 public class Digitsinmumarray {
     public static void main(String[] args) {

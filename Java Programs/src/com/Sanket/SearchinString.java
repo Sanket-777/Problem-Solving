@@ -1,3 +1,5 @@
+package com.Sanket;
+
 public class SearchinString {
     public static void main(String[] args) {
         String name="Sanket";
