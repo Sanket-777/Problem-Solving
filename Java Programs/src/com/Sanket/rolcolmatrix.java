@@ -11,7 +11,7 @@ public class rolcolmatrix {
                 {20,34,45,50}
 
         };
-        int target=35;
+        int target=34;
         System.out.println(Arrays.toString(search(arr,target)));
     }
     static  int[] search(int [][]matrix,int targert)
