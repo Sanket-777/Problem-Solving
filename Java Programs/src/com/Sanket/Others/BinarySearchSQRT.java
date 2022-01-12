@@ -1,4 +1,4 @@
-package com.Sanket;
+package com.Sanket.Others;
 
 public class BinarySearchSQRT {
 

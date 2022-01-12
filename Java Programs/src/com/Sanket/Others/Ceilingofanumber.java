@@ -1,4 +1,4 @@
-package com.Sanket;
+package com.Sanket.Others;
 //Ceiling of a  number is smallest element in array greater than or equal to target
 public class Ceilingofanumber {
 

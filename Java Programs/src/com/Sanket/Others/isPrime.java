@@ -1,4 +1,4 @@
-package com.Sanket;
+package com.Sanket.Others;
 
 public class isPrime {
     public static void main(String []args)

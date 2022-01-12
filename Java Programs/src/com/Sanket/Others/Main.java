@@ -1,4 +1,4 @@
-package com.Sanket;
+package com.Sanket.Others;
 
 //Simple Binary Search Alogorithm
 public class    Main {

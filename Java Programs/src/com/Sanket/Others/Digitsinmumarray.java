@@ -1,4 +1,4 @@
-package com.Sanket;
+package com.Sanket.Others;
 
 //Leetcode problwm number
 public class Digitsinmumarray {

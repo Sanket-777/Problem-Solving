@@ -9,7 +9,8 @@ public class Findminimuminarray {
     {
         // if size = 0 means whole array
         // has been traversed
-        if(n == 1) {System.out.print(A[0]);
+        if(n == 1) {
+            System.out.print(A[0]);
             return A[0];
         }
 

@@ -1,4 +1,4 @@
-package com.Sanket;
+package com.Sanket.Others;
 
 public class xorvishay {
     //find the nunber that occurs once

@@ -1,4 +1,4 @@
-package com.Sanket;
+package com.Sanket.Others;
 // Floor: Greatest number that is <=target
 
 public class Floorofanumber {
