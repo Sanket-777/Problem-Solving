@@ -7,6 +7,7 @@ public class InplaceMergeSort{
         int []arr = {5,8,5,7,4,2,3,1};
         mergesortInplace(arr,0, arr.length);
         System.out.println(Arrays.toString(arr));
+
     }
     static  void mergesortInplace(int arr[],int start,int end)
     {
@@ -16,7 +17,7 @@ public class InplaceMergeSort{
         }
 
 
-        int mid = (start + end) /2;  //finding the middle point of the array
+        int mid = start + (end- start)/2;  //finding the middle point of the array
         mergesortInplace(arr,start,mid); // making the first half
         mergesortInplace(arr,mid,end); //making the second half
         mergeInplace(arr,start,end,mid); // merging the arrays into one array
