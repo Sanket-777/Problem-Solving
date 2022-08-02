@@ -12,8 +12,7 @@ public:
             
             while(product >= k)
             {
-                product /= nums[start];
-                start++;
+                product /= nums[start++];
             }
             result += end - start + 1;
             end++;
