@@ -5,11 +5,7 @@ public:
         for(int i = 0;i < nums.size();i+=2)
         {
             
-            for(int k = 0;k < nums[i];k++)
-            {
-                int j = i+1;
-                v.push_back(nums[j]);
-            }
+            v.insert(v.end(),nums[i],nums[i+1]);
         }
         return v;
     }
