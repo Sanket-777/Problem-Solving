@@ -2,7 +2,7 @@ class Solution {
 public:
     vector<int> decompressRLElist(vector<int>& nums) {
         vector <int> v;
-        for(int i = 0;i < nums.size();i++)
+        for(int i = 0;i < nums.size();i+=2)
         {
             
             for(int k = 0;k < nums[i];k++)
@@ -10,7 +10,6 @@ public:
                 int j = i+1;
                 v.push_back(nums[j]);
             }
-            i++;
         }
         return v;
     }
