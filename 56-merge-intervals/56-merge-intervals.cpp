@@ -31,11 +31,11 @@ public:
         {
             if(intervals[i][0] > ans.back()[1])
             {
-               ans.push_back(intervals[i]);
+               ans.push_back(intervals[i]); // if not merging then directly add it to the answer list
             }
             else
             {
-                 ans.back()[1] = max(intervals[i][1],ans.back()[1]);
+                 ans.back()[1] = max(intervals[i][1],ans.back()[1]); // if it is going to be mergerd then we will change the ending part of the list that is to be changed
                   
             }
           
