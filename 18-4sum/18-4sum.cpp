@@ -10,7 +10,7 @@ public:
             {
                 int left = j+1;
                 int right = n-1;
-                long long sum = target - nums[i]*1L - nums[j];
+                long long sum = target - nums[i]*1L - nums[j]; // Used long lonf ans *1l Beacuse of larget value then int
                 while(left < right)
                 {
                     int sum2 = nums[left]+nums[right];
