@@ -1,28 +1,31 @@
 class Solution {
 public:
     vector<int> minOperations(string boxes) {
-        int  n = boxes.length();
-        int steps = 0;
-        vector<int> v;
-        for(int i = 0;i < n;i++)
+        
+        int n=boxes.length();
+        vector <int> ans;
+        int cnt=0;           
+
+        for(int i=0;i<n;i++)
         {
-            
-            for(int j = 0;j < n;j++)
+             cnt  = 0;
+            for(int j=0;j<n;j++)
             {
-                
                 if(i == j)
-                    continue;
-                int tomove = boxes[j] - '0';
-                while(tomove > 0)
                 {
-                    steps +=abs(i-j);
-                    tomove--;
+                 continue;   
                 }
                 
+                int balls = boxes[j] -'0';
+                while(balls > 0)
+                {
+                    cnt += abs(i - j);
+                    balls--;
+                }
             }
-             v.push_back(steps);
-            steps = 0;
+            ans.push_back(cnt);
         }
-        return v;
+        return ans;
+        
     }
 };
