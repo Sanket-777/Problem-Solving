@@ -19,12 +19,7 @@ public:
                 {
                      row++;
                     col = 0;
-                }
-                   
-                
-                
-                
-                
+                }    
             }
         }
         return v;
