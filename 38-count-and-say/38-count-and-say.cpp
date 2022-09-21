@@ -3,7 +3,7 @@ public:
     string countAndSay(int n) {
         string ans[31];
         ans[1] = "1";
-        for(int i = 2;i <= 30;i++)
+        for(int i = 2;i <= n;i++)
         {
             string temp = "";
             int count = 0;
