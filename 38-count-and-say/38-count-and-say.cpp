@@ -8,7 +8,7 @@ public:
             string temp = "";
             int count = 0;
             char var = ans[i-1][0];
-            for(int j = 0;j < ans[i-1].size();j++)
+            for(int j = 0;j <= ans[i-1].size();j++)
             {
                 if(ans[i-1][j] == var)
                 {
@@ -23,8 +23,8 @@ public:
                 }
                 
         }
-        temp += to_string(count);
-        temp += var;
+        // temp += to_string(count);
+        //  temp += var;
         ans[i]= temp;
      }
         return ans[n];
