@@ -1,7 +1,7 @@
 class Solution {
 public:
     string countAndSay(int n) {
-        string ans[31];
+        string ans[n+1];
         ans[1] = "1";
         for(int i = 2;i <= n;i++)
         {
@@ -23,8 +23,7 @@ public:
                 }
                 
         }
-        // temp += to_string(count);
-        //  temp += var;
+       
         ans[i]= temp;
      }
         return ans[n];
