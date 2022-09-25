@@ -5,8 +5,7 @@ public:
     int size;
     int *dq;
     MyCircularQueue(int k) {
-        front =  -1;
-        rear = -1;
+        front = rear =  -1;
         dq = new int[k];
         size  = k;
     }
