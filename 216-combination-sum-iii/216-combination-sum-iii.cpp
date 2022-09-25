@@ -21,7 +21,7 @@ public:
             }
             ans.push_back(i);
             fun(i+1,sum+i,n,ans2,ans,k-1);
-            ans.pop_back();
+            ans.pop_back();  // backtracking
         }
     }
     vector<vector<int>> combinationSum3(int k, int n) {
