@@ -20,8 +20,12 @@ public:
         {
             sum += root->val;
         }
-        calculatesum(root->left,low,high);
-        calculatesum(root->right,low,high);
+        if(root->val >= low)
+            calculatesum(root->left,low,high);
+        if(root->val <= high)
+            calculatesum(root->right,low,high);
+
+
          
         return sum;
     }
