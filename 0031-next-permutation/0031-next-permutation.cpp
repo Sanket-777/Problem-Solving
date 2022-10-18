@@ -16,13 +16,13 @@ public:
     {
         for(l = n-1;l > 0;l--)
         {
-            if(p[l]>p[k])
+            if(p[l]>p[k]) //findind a number greater then the inflarion point number
             {                               
                 break;
             }
         }
-        swap(p[k],p[l]);
-        reverse(p.begin()+k+1,p.end()); 
+        swap(p[k],p[l]);            //swapping them
+        reverse(p.begin()+k+1,p.end());   //reversing form the swapping point + 1
     }
     }
 }; 
