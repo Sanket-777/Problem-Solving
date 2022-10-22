@@ -1,6 +1,7 @@
 class Solution {
 public:
     vector<int> majorityElement(vector<int>& nums) {
+        //boyer moore algorithm for two  variable
         int cnt1 = 0;
         int cnt2 = 0;
         int num1 = -1;
