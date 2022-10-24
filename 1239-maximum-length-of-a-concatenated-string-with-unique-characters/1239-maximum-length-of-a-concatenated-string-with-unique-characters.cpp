@@ -23,11 +23,10 @@ public:
             return;
         if(i == n)
         {
-            if(curr.size() > maxi)
-            {
+           
                 int size = curr.size();
                 maxi = max(maxi, size);
-            }
+            
             return;
         }
         helper(arr, i + 1, n, curr + arr[i]);
