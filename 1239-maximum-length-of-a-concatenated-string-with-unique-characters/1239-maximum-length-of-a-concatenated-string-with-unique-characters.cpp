@@ -23,14 +23,12 @@ public:
             return;
         if(i == n)
         {
-           
                 int size = curr.size();
                 maxi = max(maxi, size);
-            
             return;
         }
-        helper(arr, i + 1, n, curr + arr[i]);
-        helper(arr, i + 1, n, curr);
+        helper(arr, i + 1, n, curr + arr[i]);  //take it
+        helper(arr, i + 1, n, curr);        // don't take it
     }
     int maxLength(vector<string>& arr) {
         int n = arr.size();
