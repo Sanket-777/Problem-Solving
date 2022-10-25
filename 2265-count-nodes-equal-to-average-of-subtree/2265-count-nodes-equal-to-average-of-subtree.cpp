@@ -19,8 +19,8 @@ public:
             return {0,0};
         }
         
-        pair<int,int> left = avg(root->left);
-        pair<int,int> right = avg(root->right);
+        auto left = avg(root->left);
+        auto right = avg(root->right);
         
         
         int sum = (left.first+right.first+root->val);
