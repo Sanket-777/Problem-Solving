@@ -8,11 +8,11 @@ public:
          mp[0] = -1;
         for(int i = 0;i < nums.size();i++)
         {
-            runningsum += nums[i];
+            runningsum += nums[i];   //maintaining the running  sum in hashmap
             
             if(runningsum != 0)
             {
-                runningsum %=k;
+                runningsum %=k; // checking the mod k is present in map or not
             }
             if(mp.find(runningsum)!=mp.end())
             {
