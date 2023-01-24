@@ -36,7 +36,7 @@ public:
             {
                 if(arr[i-1] <= j)
                 {
-                    t[i][j] = t[i-1][j - arr[i-1]] || t[i-1][j];
+                    t[i][j] = max(t[i-1][j - arr[i-1]],t[i-1][j]);
                 }
                 else if(arr[i-1] > j)
                 {
