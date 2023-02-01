@@ -13,13 +13,12 @@ class Solution
     int lcs(int x, int y, string s1, string s2)
     {
         // your code here
-        int n = s1.length();
-        int m = s2.length();
-        vector<vector<int>> dp(n+1,vector<int>(m+1,0));
+      
+        vector<vector<int>> dp(x+1,vector<int>(y+1,0));
         
-        for(int i = 1;i < n+1;i++)
+        for(int i = 1;i < x+1;i++)
         {
-            for(int j = 1;j < m+1;j++)
+            for(int j = 1;j < y+1;j++)
             {
                 if(s1[i-1] == s2[j-1])
                 {
@@ -32,7 +31,7 @@ class Solution
             }
         }
         
-        return dp[n][m];
+        return dp[x][y];
     }
 };
 
